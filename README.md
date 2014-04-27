@@ -1,6 +1,6 @@
 # AntigateRb
 
-TODO: Write a gem description
+Antigate.com ruby api wrapper
 
 ## Installation
 
@@ -16,9 +16,22 @@ Or install it yourself as:
 
     $ gem install antigate_rb
 
-## Usage
+## Usage example
 
-TODO: Write usage instructions here
+Configure with api params
+
+```ruby
+AntigateRb.configure do |config|
+  config.key = 'api_key'
+  config.min_len = 6
+  config.max_len = 10
+end
+```
+
+```ruby
+@client = AntigateRb::Client.new(retries_count: 5, phrase: 1)
+code = @client.code(image_content)
+```
 
 ## Contributing
 
