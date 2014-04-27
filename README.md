@@ -1,4 +1,4 @@
-# AntigateRb
+# AntigateRb [![Build Status](https://secure.travis-ci.org/pomnikita/antigate_rb.png)](http://travis-ci.org/pomnikita/antigate_rb)
 
 Antigate.com ruby api wrapper
 
