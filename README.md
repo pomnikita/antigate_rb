@@ -30,7 +30,7 @@ end
 
 ```ruby
 @client = AntigateRb::Client.new(retries_count: 5, phrase: 1)
-code = @client.code(image_content)
+code = @client.decode(image_content)
 ```
 
 ## Contributing
